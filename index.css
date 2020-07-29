@@ -1,0 +1,60 @@
+
+    
+
+body {
+    background-color: lightblue;
+    margin: 0;
+   
+
+}
+
+.tile {
+    
+    
+    stroke: white;
+  }
+#title{
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkslategray
+}
+
+@media screen and (max-width: 768px){
+    #title{
+        font-size: 30px;
+    }
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 25px;
+    color: darkslategray
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tooltip {
+    position: absolute;
+    min-width: 120px;
+    height: auto;
+    background-color: mintcream;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: left;
+}
+
+.legend-item{
+    width: 20px;
+    height: 20px;
+}
+
